@@ -11,7 +11,8 @@
         <label for="endereco">Endereço</label>
         <input id="endereco" value="{{ $dados->endereco }}" class="form-control mb-3" name="endereco">
 
-        <button class="btn btn-primary">PRONTO</button>
+        <a href="/restaurantes" class="btn btn-outline-dark"> Voltar </a>
+        <button class="btn btn-primary"> Pronto </button>
     </form>
 
 @endsection

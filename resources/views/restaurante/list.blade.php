@@ -28,8 +28,9 @@
                         <td>{$cada->nome}</td>
                         <td>{$cada->endereco}</td>
                         <td>
-                            <a href='/restaurantes/editar/{$cada->id}' class='btn btn-outline-warning'>Editar</a>
-                            <a href='/restaurantes/excluir/{$cada->id}' class='btn btn-outline-danger'>Excluir</a>
+                            <a href='/restaurantes/mostrar/{$cada->id}' class='btn btn-outline-primary'> Mostrar </a>
+                            <a href='/restaurantes/editar/{$cada->id}' class='btn btn-outline-warning'> Editar </a>
+                            <a href='/restaurantes/excluir/{$cada->id}' class='btn btn-outline-danger'> Excluir </a>
                         </td>
                     </tr>";
                 }
